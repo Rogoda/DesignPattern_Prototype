@@ -8,6 +8,6 @@ namespace DesignPattern_Prototype
     {
         string Title { get; }
         string Content { get; }
-        IBook Clone();
+        IBook Copy();
     }
 }

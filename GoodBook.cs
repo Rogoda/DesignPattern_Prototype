@@ -15,7 +15,7 @@ namespace DesignPattern_Prototype
             Content = content;
         }
 
-        public IBook Clone()
+        public IBook Copy()
         {
             return this;
         }

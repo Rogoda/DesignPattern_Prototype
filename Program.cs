@@ -13,7 +13,7 @@ namespace DesignPattern_Prototype
 
             for( int i  = 0; i < printingCount; i++)
             {
-                issue[i] = prototype.Clone();
+                issue[i] = prototype.Copy();
             }
 
             for (int i = 0; i < 10; i++)
